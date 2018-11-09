@@ -1,0 +1,3 @@
+Clone navbar from start bootstrap. 
+do this twice showing what it would be like to do it starting desktop first and then doing responsive first.
+For end of lesson create a picture that gets bigger on hover and also adds a shadow effect

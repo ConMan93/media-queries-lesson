@@ -1,0 +1,72 @@
+.animations-main-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.animations-child-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.animated-square {
+    animation-name: spin;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+
+.slide {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: yellow;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes slide {
+    from {
+        right: 0px;
+    }
+    to {
+        right: 100px;
+    }
+}
+
+.change-color {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes change-color {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: black;
+    }
+}

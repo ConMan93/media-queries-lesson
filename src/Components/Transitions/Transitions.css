@@ -1,0 +1,46 @@
+.transitions-main-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.transitions-child-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grow-on-hover {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    transition: width 4s,  height 4s;
+}
+.grow-on-hover:hover {
+    height: 200px;
+    width: 200px;
+}
+
+.shrink-on-hover {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition: width 4s,  height 4s;
+    transition-timing-function: ease-in;
+}
+
+.shrink-on-hover:hover {
+    height: 100px;
+    width: 100px;
+}
+
+.change-color-hover {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transition: background-color 4s;
+    transition-delay: 1s;
+}
+.change-color-hover:hover {
+    background-color: silver;
+}

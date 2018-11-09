@@ -1,0 +1,149 @@
+/* Remember -- max-width means the styles will be applied up to a max width of x */
+/* Desktop view */
+.navbar {
+    height: 75px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    width: 30%;
+}
+
+
+.nav-links {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .fa-bars {
+        display: none;
+    }
+    .nav-links {
+        display: initial;
+    }
+    .navbar {
+        height: 100px;
+        background-color: green;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .navbar {
+        background-color: bisque;
+    }
+}
+/* 
+.fa-bars {
+    display: none;
+} */
+
+/* @media (max-width: 600px) {
+    .navbar {
+        background-color: pink;
+        height: 75px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Min width --- styles will be applied down to a minimum width of x */
+/* @media (min-width: 600px) {
+    .color-squares {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 350px){
+    .color-squares {
+        background-color: magenta;
+        height: 200px;
+        width: 50%;
+    }
+} */
+/* 
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fa-bars {
+    display: none;
+}
+
+@media (max-width: 200px){
+    .navbar {
+        background-color: pink;
+        height: 200px;
+    }
+    .fa-bars {
+        display: block;
+    }
+    .nav-items {
+        display: none;
+    }
+} */
+
