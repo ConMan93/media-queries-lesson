@@ -1,3 +1,10 @@
+/* Possible values */
+/* 
+transition-property: specifies name of css property to apply to;
+transition-duration: specifies how many seconds or milliseconds the transition effect takes to complete 
+transition-timing-function: specifies the speed curve of the transition effect
+transition-delay: defines when the transition effect will start
+*/
 .transitions-main-container {
     border: 1px solid black;
     display: flex;

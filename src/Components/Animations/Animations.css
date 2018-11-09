@@ -1,3 +1,14 @@
+/* Possible animation values  */
+/*
+animation-delay: 1s;
+animation-direction: forwards;
+animation-duration: 4s; required to have animation run 
+animation-fill-mode: forwards; Specifies where animation will end up
+animation-iteration-count: infinite; or less than
+animation-name: required;
+animation-play-state: specifies whether animation is playing or paused 
+animation-timing-function: linear; defines speed at which animation plays out
+*/
 .animations-main-container {
     border: 1px solid black;
     display: flex;
@@ -69,4 +80,14 @@
     to {
         background-color: black;
     }
+    /* Two different ways of doing keyframs. from - to */
+    /* 0% {
+        background-color: green;
+    }
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: black;
+    } */
 }

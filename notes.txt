@@ -1,3 +1,53 @@
-Clone navbar from start bootstrap. 
-do this twice showing what it would be like to do it starting desktop first and then doing responsive first.
-For end of lesson create a picture that gets bigger on hover and also adds a shadow effect
+1. Start by showing the space jam website;. The site is obviously just scaled down and not built for a phone at all
+https://www.warnerbros.com/archive/spacejam/movie/jam.htm
+
+2. Then show Tinker website and show how it looks very good on both mobile and desktop review
+https://tinkerwatches.com/
+
+3. Talk about the importance of mobile first design
+https://mobiforge.com/research-analysis/13-statistics-on-mobile-web-performance-in-2017
+https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00
+https://mayvendev.com/blog/mobilefirst
+
+4. Talk about Extraction (Desktop to mobile design philosophy) vs Enhancement (Mobile first to desktop philosophy)
+
+Extraction:
+
+-Developing desktop view and working down to mobile views 
+-This way tends to lead to a feature rich desktop view which may be hard to scale down to mobile views 
+-May try to cram features from desktop view to mobile views to keep same features and feel 
+-Can lead to a mobile view that feels like an afterthought rather than a well thoguht out app
+
+Enhancement: 
+
+-Developing for mobile first 
+-Build in the most critical and needed features 
+    -Take into account device capabilities 
+-Build up to desktop view 
+    -Add in more/better features as device is more powerful/has better capabilities
+-Starting with mobile tends to lead to views/features that are well designed for all platforms/views 
+
+5. Let students know trend is mobile first but you can go with either approach.
+
+6. Responsive design. Briefly introduce the concept of making a site change it's appearance based on the size of the screen.
+
+7. Now build out the header component and show how media queries work. 
+7.1 Move class definitions in media queries up above the other class definitions to show them getting overwritten 
+7.2 bring in the icon from font awesome 
+7.3 have it show up at a smaller screen width.
+7.4 have the header change colors 
+
+8. Go into animations 
+8.1 Talk about what the benefit of animations are. Show this site.
+http://www.theglyph.studio/#home
+8.2 Now show an example of overly terrible in your face site 
+8.3 Build out all the animations 
+8.4 Show the site that has a lot of cool examples of animations 
+https://webdesign.tutsplus.com/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937
+
+9. Move into transitions 
+9.1 Explain transitions do not handle the starting or ending values for css properties. Transitions dont change css properties, they just define how long it takes for the animation to change
+9.2 Transitions cannot loop like animations can 
+9.3 Transitions must be triggered to run by click, hover e.t.c 
+9.4 Build out transitions in Animation component 
+9.5 If time after all of this build out a simple web page with a dropdown and a header / some body stuff

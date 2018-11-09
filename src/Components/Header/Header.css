@@ -27,7 +27,7 @@
 .nav-links {
     display: none;
 }
-
+/* min-width means that these class definitions will apply up to a minimum width of 600px */
 @media (min-width: 600px) {
     .fa-bars {
         display: none;
@@ -46,26 +46,12 @@
         background-color: bisque;
     }
 }
-/* 
-.fa-bars {
-    display: none;
-} */
-
-/* @media (max-width: 600px) {
-    .navbar {
-        background-color: pink;
-        height: 75px;
+/* max-width means that this class will apply up to a max width of 500px */
+@media (max-width: 500px) {
+    .nav-title {
+        color: white;
     }
-
-    .nav-links {
-        display: none;
-    }
-
-    .fa-bars {
-        display: block;
-    }
-} */
-
+}
 
 
 
