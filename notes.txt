@@ -41,6 +41,7 @@ Enhancement:
 8.1 Talk about what the benefit of animations are. Show this site.
 http://www.theglyph.studio/#home
 8.2 Now show an example of overly terrible in your face site 
+https://www.lingscars.com/
 8.3 Build out all the animations 
 8.4 Show the site that has a lot of cool examples of animations 
 https://webdesign.tutsplus.com/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937

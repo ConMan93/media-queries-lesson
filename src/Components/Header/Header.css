@@ -27,7 +27,7 @@
 .nav-links {
     display: none;
 }
-/* min-width means that these class definitions will apply up to a minimum width of 600px */
+/* min-width means that these class definitions will apply down to a maximum width of 600px */
 @media (min-width: 600px) {
     .fa-bars {
         display: none;
